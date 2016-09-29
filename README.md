@@ -1,1 +1,1 @@
-# create-node-module
+A very simple way to create a node module.

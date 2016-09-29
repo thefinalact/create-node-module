@@ -1,0 +1,32 @@
+{
+  "name": "create-node-module",
+  "version": "0.1.0",
+  "description": "Create a node module quickly",
+  "license": "MIT",
+  "repository": "thefinalact/create-node-module",
+  "author": {
+    "name": "TFA",
+    "email": "anopenscroll@gmail.com",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava --watch --verbose"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
