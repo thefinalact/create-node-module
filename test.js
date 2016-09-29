@@ -1,6 +1,9 @@
-import test from 'ava';
-import fn from './';
+var assert = require('assert');
+var mocha = require('mocha');
+var myapp = require('./app');
 
-test('Print Hello World!', t => {
-	t.is(fn(), 'Hello World!');
+describe('Main output', () => {
+	it('should be Hello World!', () => {
+		assert.equal(myapp(), 'Hello World!');
+	});
 });

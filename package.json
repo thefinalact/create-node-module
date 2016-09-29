@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo --fix && ava --watch --verbose"
+    "test": "mocha -w"
   },
   "files": [
     "index.js"
@@ -25,8 +25,7 @@
     "meow": "^3.7.0"
   },
   "devDependencies": {
-    "ava": "^0.15.2",
-    "xo": "^0.16.0"
+    "mocha": "^3.1.0"
   },
   "xo": {
     "esnext": true
