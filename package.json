@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava --watch --verbose"
+    "test": "xo --fix && ava --watch --verbose"
   },
   "files": [
     "index.js"

@@ -7,6 +7,6 @@ Run your tests (located in *test.js*) with
 The test runner is set to 'watch' files  by default, so test will run everytime the code is changed.
 
 # Run from command line
-Rename the file *myApp-cli.js* to your app's name.
+Rename the file *myapp-cli.js* to your app's name.
 
-Also find and replace references to *myApp* in this file.
+Also find and replace references to *myapp* in this file.
