@@ -13,8 +13,7 @@ const cli = meow(`
 	  Hello World!
 `);
 
-const input = [];
-if (input[0] === '') {
+if (cli.input.length === 0) {
 	console.log('\nMissing input parameter');
 	console.log(cli.help);
 } else {
