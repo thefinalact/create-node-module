@@ -6,10 +6,10 @@ const myapp = require('./');
 
 const cli = meow(`
 	Usage
-	  $ myapp-cli [input]
+	  $ my-app-cli [input]
 
 	Examples
-	  $ myapp-cli ponies
+	  $ my-app-cli ponies
 	  Hello World!
 `);
 
