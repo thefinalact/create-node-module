@@ -2,7 +2,7 @@
 
 'use strict';
 const meow = require('meow');
-const myapp = require('./');
+const index = require('./index');
 
 const cli = meow(`
 	Usage
@@ -17,5 +17,5 @@ if (cli.input.length === 0) {
 	console.log('\nMissing input parameter');
 	console.log(cli.help);
 } else {
-	console.log(myapp(cli.input[0]));
+	console.log(index(cli.input[0]));
 }
