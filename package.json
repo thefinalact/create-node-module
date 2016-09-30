@@ -1,14 +1,9 @@
 {
-  "name": "create-node-module",
-  "version": "0.2.0",
-  "description": "Create a node module quickly",
+  "name": "my-app-repl",
+  "version": "0.1.0",
+  "description": "A custom REPL",
   "license": "MIT",
-  "repository": "thefinalact/create-node-module",
-  "author": {
-    "name": "TFA",
-    "email": "anopenscroll@gmail.com",
-    "url": ""
-  },
+  "author": "TFA <anopenscroll@gmail.com>",
   "engines": {
     "node": ">=4"
   },
@@ -18,9 +13,7 @@
   "files": [
     "index.js"
   ],
-  "keywords": [
-    ""
-  ],
+  "keywords": [],
   "dependencies": {
     "meow": "^3.7.0"
   },
@@ -30,6 +23,9 @@
   },
   "xo": {
     "esnext": true,
-    "env": ["mocha", "node"]
+    "env": [
+      "mocha",
+      "node"
+    ]
   }
 }
