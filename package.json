@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "mocha -w"
+    "test": "xo && mocha -w"
   },
   "files": [
     "index.js"
@@ -25,9 +25,11 @@
     "meow": "^3.7.0"
   },
   "devDependencies": {
-    "mocha": "^3.1.0"
+    "mocha": "^3.1.0",
+    "xo": "^0.16.0"
   },
   "xo": {
-    "esnext": true
+    "esnext": true,
+    "env": ["mocha", "node"]
   }
 }
