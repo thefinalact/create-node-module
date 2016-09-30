@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && mocha -w"
+    "test": "xo && mocha -c -w"
   },
   "files": [
     "index.js"
